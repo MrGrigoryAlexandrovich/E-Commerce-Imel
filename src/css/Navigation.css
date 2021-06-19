@@ -1,0 +1,137 @@
+.Navigation {
+position: absolute;
+width: 1440px;
+height: 70px;
+left: 0px;
+top: 0px;
+background: #FFFFFF;
+}
+
+.Navigation svg {
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+}
+
+.Navigation li {
+    display:inline;
+}
+
+.Navigation li a {
+    text-decoration: none;
+}
+
+#Women {
+position: absolute;
+width: 50px;
+height: 17px;
+left: 60px;
+top: 27px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+}
+
+#Men {
+position: absolute;
+width: 29px;
+height: 17px;
+left: 140px;
+top: 27px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+}
+
+#Sale {
+position: absolute;
+width: 29px;
+height: 17px;
+left: 199px;
+top: 27px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #E01A1A;
+}
+
+svg {
+    margin: 0px auto;
+    margin-top: 27px;
+}
+
+#Contact {
+position: absolute;
+width: 53px;
+height: 17px;
+left: 1193px;
+top: 27px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+}
+
+#SignIn {
+position: absolute;
+width: 45px;
+height: 17px;
+left: 1276px;
+top: 27px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+}
+
+#Cart {
+position: absolute;
+width: 29px;
+height: 17px;
+left: 1351px;
+top: 27px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+}
+
+#itemsBackground {
+position: absolute;
+width: 13px;
+height: 13px;
+left: 1342px;
+top: 17px;
+background: #4F4F4F;
+border-radius: 50%;
+}
+
+#itemsNumber {
+position: absolute;
+width: 5px;
+height: 8px;
+left: 1346px;
+top: 19px;
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 8px;
+line-height: 8px;
+color: #FFFFFF;
+}
