@@ -1,0 +1,166 @@
+.StartPage {
+position: absolute;
+width: 1440px;
+height: 2377px;
+left: 0px;
+background: #F5F7F6;
+color: #000000;
+}
+/* Women */
+.WomenPhoto {
+position: absolute;
+width: 650px;
+height: 1091px;
+left: 60px;
+top: 122px;
+background: url(../photos/StartPage/WomenPhoto1.png);
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+.WomenText {
+position: absolute;
+width: 85px;
+height: 29px;
+left: 61px;
+top: 819px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+}
+/* Sale Women */
+.SaleWomenPhoto {
+position: absolute;
+height: 417px;
+left: 27.43%;
+right: 50.69%;
+top: 741px;
+background: url(../photos/StartPage/WomenPhoto2.png);
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+.SaleWomenText1 {
+position: absolute;
+height: 29px;
+left: 395px;
+right: 884px;
+top: 1188px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+color: #E01A1A;
+}
+
+.SaleWomenText2 {
+position: absolute;
+height: 29px;
+left: 505px;
+right: 884px;
+top: 1188px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+color: #000000;
+}
+
+/* Men */
+
+.MenPhoto {
+position: absolute;
+width: 650px;
+height: 1091px;
+left: 730px;
+top: 222px;
+background: url(../photos/StartPage/MenPhoto1.png);
+background-size: contain;
+background-repeat: no-repeat;
+}
+    
+.MenText {
+position: absolute;
+width: 85px;
+height: 29px;
+left: 61px;
+top: 819px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+}
+/* Sale Men*/
+.SaleMenPhoto {
+position: absolute;
+width: 315px;
+height: 418px;
+left: 730px;
+top: 840px;
+background: url(../photos/StartPage/MenPhoto2.png);
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+.SaleMenText1 {
+position: absolute;
+height: 29px;
+left: 902px;
+right: 377px;
+top: 1288px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+color: #E01A1A;
+}
+    
+.SaleMenText2 {
+position: absolute;
+height: 29px;
+left: 1012px;
+right: 377px;
+top: 1288px; 
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+color: #000000;
+}
+
+/* Bottom Photo */
+
+.MenBottomPhoto {
+position: absolute;
+width: 982px;
+height: 378px;
+left: 61px;
+top: 1457px;
+background: url(../photos/StartPage/MenPhoto3.png);
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+.WomenBottomPhoto {
+position: absolute;
+width: 982px;
+height: 378px;
+left: 398px;
+top: 1789px;
+background: url(../photos/StartPage/WomenPhoto3.png);
+background-size: contain;
+background-repeat: no-repeat;
+}

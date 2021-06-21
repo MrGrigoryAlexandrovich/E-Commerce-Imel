@@ -1,19 +1,22 @@
 import '../css/Navigation.css'
 import React from 'react'
-
+import {Link} from "react-router-dom";
 export default function Navigation() {
     return (
+        <div className="Header">
         <nav className="Navigation">
             <ul>
                 <li>
-                    <a id="Women" href="#women">Women</a>
+                    <a id="Women" href="/women">Women</a>
                 </li>
                 <li>
-                    <a id="Men" href="#men">Men</a>
+                    <a id="Men" href="/men">Men</a>
                 </li>
+                <Link to="/">
                 <li>
                     <a id="Sale" href="#sale">Sale</a>
                 </li>
+                </Link>
                 <li>
                     <a id="Contact" href="#contact">Contact</a>
                 </li>
@@ -30,5 +33,6 @@ export default function Navigation() {
                 <span id="itemsNumber">0</span>
             </ul>
         </nav>
+        </div>
     )
 }

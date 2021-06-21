@@ -1,7 +1,9 @@
 import './css/App.css';
 import Navigation from './components/Navigation'
+import Footer from './components/Footer'
 import StartPage from './components/StartPage'
-import CategoryPage from './components/CategoryPage'
+import Women from './components/Women'
+import Men from './components/Men'
 import ProductPage from './components/ProductPage'
 import CheckoutPage from './components/CheckoutPage'
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
@@ -9,13 +11,15 @@ function App() {
     return (
         <Router>
             <div className="App">
-                <Navigation/>
                 <Switch>
                     <Route path="/" exact>
                         <StartPage/>
                     </Route>
-                    <Route path="/categorypage">
-                        <CategoryPage/>
+                    <Route path="/women">
+                        <Women/>
+                    </Route>
+                    <Route path="/men">
+                        <Men/>
                     </Route>
                     <Route path="/productpage">
                         <ProductPage/>
@@ -24,6 +28,8 @@ function App() {
                         <CheckoutPage/>
                     </Route>
                 </Switch>
+                <Navigation/>
+                <Footer />
             </div>
         </Router>
     );

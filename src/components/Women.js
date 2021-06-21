@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function CategoryPage() {
+export default function Women() {
     return (
         <div>
-                <h1>Category</h1>
+                <h1>Women</h1>
         </div>
     )
 }

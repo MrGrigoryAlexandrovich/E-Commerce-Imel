@@ -1,0 +1,17 @@
+.Footer {
+position: absolute;
+width: 1440px;
+height: 70px;
+left: 0px;
+top: 2307px;
+background: #EEF0EF;
+}
+.Copyright {
+text-align: center;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+color: #D2D6D4;
+line-height: 35px;
+}
