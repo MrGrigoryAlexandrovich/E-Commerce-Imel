@@ -18,6 +18,11 @@ background-size: contain;
 background-repeat: no-repeat;
 }
 
+.WomenPhoto:hover{
+opacity: 0.6;
+transition: 0.3s;
+}
+
 .WomenText {
 position: absolute;
 width: 85px;
@@ -41,6 +46,11 @@ top: 741px;
 background: url(../photos/StartPage/WomenPhoto2.png);
 background-size: contain;
 background-repeat: no-repeat;
+}
+
+.SaleWomenPhoto:hover {
+opacity: 0.6;
+transition: 0.3s;
 }
 
 .SaleWomenText1 {
@@ -85,7 +95,12 @@ background: url(../photos/StartPage/MenPhoto1.png);
 background-size: contain;
 background-repeat: no-repeat;
 }
-    
+
+.MenPhoto:hover {
+opacity: 0.6;
+transition: 0.3s;
+}
+
 .MenText {
 position: absolute;
 width: 85px;
@@ -109,6 +124,11 @@ top: 840px;
 background: url(../photos/StartPage/MenPhoto2.png);
 background-size: contain;
 background-repeat: no-repeat;
+}
+
+.SaleMenPhoto:hover {
+opacity: 0.6;
+transition: 0.3s;
 }
 
 .SaleMenText1 {
@@ -154,6 +174,11 @@ background-size: contain;
 background-repeat: no-repeat;
 }
 
+.MenBottomPhoto:hover {
+opacity: 0.6;
+transition: 0.3s;
+}
+
 .WomenBottomPhoto {
 position: absolute;
 width: 982px;
@@ -163,4 +188,9 @@ top: 1789px;
 background: url(../photos/StartPage/WomenPhoto3.png);
 background-size: contain;
 background-repeat: no-repeat;
+}
+
+.WomenBottomPhoto:hover {
+opacity: 0.6;
+transition: 0.3s;
 }
