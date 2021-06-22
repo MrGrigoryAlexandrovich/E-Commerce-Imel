@@ -1,6 +1,5 @@
 import './css/App.css';
 import Navigation from './components/Navigation'
-import Footer from './components/Footer'
 import StartPage from './components/StartPage'
 import Women from './components/Women'
 import Men from './components/Men'
@@ -29,7 +28,6 @@ function App() {
                     </Route>
                 </Switch>
                 <Navigation/>
-                <Footer />
             </div>
         </Router>
     );
