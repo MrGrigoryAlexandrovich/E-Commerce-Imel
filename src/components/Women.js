@@ -4,22 +4,22 @@ export default function Women() {
     return (
         <div className="Women">
               <span id="title">Women</span>
-              <img className="women1"/>
-              <img className="women2"/>
-              <img className="women3"/>
-              <img className="women4"/>
-              <img className="women1"/>
-              <img className="women2"/>
-              <img className="women3"/>
-              <img className="women4"/>
-              <img className="women1"/>             
-              <img className="women2"/>            
-              <img className="women3"/>             
-              <img className="women4"/>            
-              <img className="women1"/>
-              <img className="women2"/>
-              <img className="women3"/>
-              <img className="women4"/>
+              <img alt='' className="women1"/>
+              <img alt='' className="women2"/>
+              <img alt='' className="women3"/>
+              <img alt='' className="women4"/>
+              <img alt='' className="women1"/>
+              <img alt='' className="women2"/>
+              <img alt='' className="women3"/>
+              <img alt='' className="women4"/>
+              <img alt='' className="women1"/>             
+              <img alt='' className="women2"/>            
+              <img alt='' className="women3"/>             
+              <img alt='' className="women4"/>            
+              <img alt='' className="women1"/>
+              <img alt='' className="women2"/>
+              <img alt='' className="women3"/>
+              <img alt='' className="women4"/>
                <p className="TextStyle" id="textposition1">RECYCLED POLYESTER PERFORMANCE PARKA</p>
                <p className="TextStyle" id="textposition2">RECYCLED POLYESTER PERFORMANCE PARKA</p>
                <p className="TextStyle" id="textposition3">RECYCLED POLYESTER PERFORMANCE PARKA</p> 
