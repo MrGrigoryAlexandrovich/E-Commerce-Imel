@@ -1,0 +1,343 @@
+.Men {
+    position: relative;
+    width: 1440px;
+    height: 2383px;
+    background: #F5F7F6;
+}
+
+#title {
+    position: absolute;
+    width: 85px;
+    height: 29px;
+    left: 677px;
+    top: 150px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+}
+.men1 {
+    background: url('../photos/MenPage/men1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.men2 {
+    background: url('../photos/MenPage/men2.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.men3 {
+    background: url('../photos/MenPage/men3.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.men4 {
+    background: url('../photos/MenPage/men4.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.Men img {
+    margin-bottom: 88px;
+}
+
+.Men img:hover {
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+img:nth-child(2n + 1) {
+    position: relative;
+    width: 315px;
+    height: 453px;
+    left: 4.17%;
+    top: 349px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+img:nth-child(2n) {
+    position: relative;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 315px;
+    height: 453px;
+    left: 4.17%;
+    top: 259px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.TextStyle {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #000000;
+}
+
+#textposition1 {
+    position: absolute;
+    height: 12px;
+    left: 60px;
+    right: 1065px;
+    top: 732px;
+}
+
+#textposition2 {
+    position: absolute;
+    height: 12px;
+    left: 395px;
+    right: 730px;
+    top: 822px;
+}
+
+#textposition3 {
+    position: absolute;
+    height: 12px;
+    left: 730px;
+    right: 395px;
+    top: 732px;
+}
+
+#textposition4 {
+    position: absolute;
+    height: 12px;
+    left: 1065px;
+    right: 60px;
+    top: 822px;
+}
+
+#textposition5 {
+    position: absolute;
+    height: 12px;
+    left: 60px;
+    right: 1065px;
+    top: 1273px;
+}
+
+#textposition6 {
+    position: absolute;
+    height: 12px;
+    left: 395px;
+    right: 730px;
+    top: 1363px;
+}
+
+#textposition7 {
+    position: absolute;
+    height: 12px;
+    left: 730px;
+    right: 395px;
+    top: 1273px;
+}
+
+#textposition8 {
+    position: absolute;
+    height: 12px;
+    left: 1065px;
+    right: 60px;
+    top: 1363px;
+}
+
+#textposition9 {
+    position: absolute;
+    height: 12px;
+    left: 60px;
+    right: 1065px;
+    top: 1814px;
+}
+
+#textposition10 {
+    position: absolute;
+    height: 12px;
+    left: 395px;
+    right: 730px;
+    top: 1904px;
+}
+
+#textposition11 {
+    position: absolute;
+    height: 12px;
+    left: 730px;
+    right: 395px;
+    top: 1814px;
+}
+
+#textposition12 {
+    position: absolute;
+    height: 12px;
+    left: 1065px;
+    right: 60px;
+    top: 1904px;
+}
+
+#textposition13 {
+    position: absolute;
+    height: 12px;
+    left: 60px;
+    right: 1065px;
+    top: 2355px;
+}
+
+#textposition15 {
+    position: absolute;
+    height: 12px;
+    left: 730px;
+    right: 395px;
+    top: 2355px;
+}
+
+.PriceStyle {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #999999;
+}
+
+.PriceStyle2 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #E01A1A;
+}
+
+#priceposition1 {
+    position: absolute;
+    height: 11px;
+    left: 60px;
+    right: 1065px;
+    top: 749px;
+}
+
+#priceposition2 {
+    position: absolute;
+    height: 11px;
+    left: 395px;
+    right: 730px;
+    top: 839px;
+}
+
+#priceposition3 {
+    position: absolute;
+    height: 11px;
+    left: 730px;
+    right: 395px;
+    top: 749px;
+}
+
+#priceposition4 {
+    position: absolute;
+    height: 11px;
+    left: 1065px;
+    right: 60px;
+    top: 839px;
+}
+
+#priceposition44 {
+    position: absolute;
+    height: 11px;
+    left: 1110px;
+    right: 60px;
+    top: 839px;
+    text-decoration: line-through;
+}
+
+#priceposition5 {
+    position: absolute;
+    height: 11px;
+    left: 60px;
+    right: 1065px;
+    top: 1290px;
+}
+
+#priceposition55 {
+    position: absolute;
+    height: 11px;
+    left: 105px;
+    right: 1065px;
+    top: 1290px;
+    text-decoration:line-through
+}
+
+#priceposition6 {
+    position: absolute;
+    height: 11px;
+    left: 395px;
+    right: 730px;
+    top: 1380px;
+}
+
+#priceposition7 {
+    position: absolute;
+    height: 11px;
+    left: 730px;
+    right: 395px;
+    top: 1290px;
+}
+
+#priceposition8 {
+    position: absolute;
+    height: 11px;
+    left: 1065px;
+    right: 60px;
+    top: 1380px;
+}
+
+#priceposition9 {
+    position: absolute;
+    height: 11px;
+    left: 60px;
+    right: 1065px;
+    top: 1831px;
+}
+
+#priceposition10 {
+    position: absolute;
+    height: 11px;
+    left: 395px;
+    right: 730px;
+    top: 1921px;
+}
+
+#priceposition11 {
+    position: absolute;
+    height: 11px;
+    left: 730px;
+    right: 395px;
+    top: 1831px;
+}
+
+#priceposition12 {
+    position: absolute;
+    height: 11px;
+    left: 1065px;
+    right: 60px;
+    top: 1921px;
+}
+
+#priceposition13 {
+    position: absolute;
+    height: 11px;
+    left: 60px;
+    right: 1065px;
+    top: 2372px;
+}
+
+#priceposition15 {
+    position: absolute;
+    height: 11px;
+    left: 730px;
+    right: 395px;
+    top: 2372px;
+}
