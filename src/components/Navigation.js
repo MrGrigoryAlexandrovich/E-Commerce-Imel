@@ -21,7 +21,7 @@ export default function Navigation() {
                   Sale
                 </li>
                 </Link>
-                <Link to="/contact">
+                <Link to="/contact/information">
                 <li id="Contact">
                  Contact
                 </li>    

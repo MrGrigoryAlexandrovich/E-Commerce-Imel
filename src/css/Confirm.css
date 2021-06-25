@@ -1,0 +1,72 @@
+.ConfirmText {
+    position: absolute;
+    width: 75px;
+    height: 24px;
+    left: 60px;
+    top: 203px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.dataText {
+    position: absolute;
+    width: 315px;
+    height: 154px;
+    left: 60px;
+    top: 252px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #4F4F4F;
+}
+
+.orderButton {
+    position: absolute;
+    width: 315px;
+    height: 48px;
+    left: 395px;
+    top: 502px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    background: #595959;
+    color: #E0E0E0;
+}
+.ordered {
+    display:none;
+}
+.orderedText1 {
+    position: absolute;
+    width: 240px;
+    height: 24px;
+    left: 60px;
+    top: 203px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.orderedText2 {
+    position: absolute;
+    width: 315px;
+    height: 21px;
+    left: 60px;
+    top: 252px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #4F4F4F;
+}

@@ -1,0 +1,439 @@
+.Contact {
+    position: relative;
+    width: 1440px;
+    height: 1155px;
+    background: #F5F7F6;
+}
+.cos {
+    position: absolute;
+    width: 66px;
+    height: 21px;
+    left: 352px;
+    top: 60px;
+}
+.menu {
+    position: absolute;
+    width: 283px;
+    height: 17px;
+    left: 244px;
+    top: 126px;
+}
+
+#information {
+    position: absolute;
+    width: 76px;
+    height: 17px;
+    left: 244px;
+    top: 126px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #C4C4C4;
+    list-style-type: none;
+}
+
+#payment {
+    position: absolute;
+    width: 58px;
+    height: 17px;
+    left: 368px;
+    top: 126px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #C4C4C4;
+}
+
+#confirm {
+    position: absolute;
+    width: 53px;
+    height: 17px;
+    left: 474px;
+    top: 126px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #C4C4C4;
+}
+.menuActive {
+    color: #000000;
+}
+.v1 {
+    position: absolute;
+    width: 6.5px;
+    height: 13px;
+    left: 341px;
+    top: 129px;
+    background: url('../photos/ContactPage/v1.png');
+    background-size: cover;
+    margin-top: 30px;
+}
+
+.v2 {
+    position: absolute;
+    width: 6.5px;
+    height: 13px;
+    left: 447px;
+    top: 129px;
+    background: url('../photos/ContactPage/v1.png');
+    background-size: cover;
+    margin-top: 30px;
+}
+
+.contactInfo {
+    position: absolute;
+    width: 189px;
+    height: 24px;
+    left: 60px;
+    top: 203px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.email {
+    position: absolute;
+    width: 650px;
+    height: 40px;
+    left: 60px;
+    top: 252px;
+}
+
+.shipping {
+    position: absolute;
+    width: 164px;
+    height: 24px;
+    left: 60px;
+    top: 337px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.firstname {
+    position: absolute;
+    width: 315px;
+    height: 40px;
+    left: 60px;
+    top: 386px;
+}
+
+.lastname {
+    position: absolute;
+    width: 315px;
+    height: 40px;
+    left: 395px;
+    top: 386px;
+}
+
+.company {
+    position: absolute;
+    width: 650px;
+    height: 40px;
+    left: 60px;
+    top: 441px;
+}
+
+.address {
+    position: absolute;
+    width: 650px;
+    height: 40px;
+    left: 60px;
+    top: 496px;
+}
+.apartment {
+    position: absolute;
+    width: 650px;
+    height: 40px;
+    left: 60px;
+    top: 551px;
+}
+.postalcode {
+    position: absolute;
+    width: 315px;
+    height: 40px;
+    left: 60px;
+    top: 606px;
+}
+
+.city {
+    position: absolute;
+    width: 315px;
+    height: 40px;
+    left: 395px;
+    top: 606px;
+}
+
+.country {
+    position: absolute;
+    width: 651px;
+    height: 40px;
+    left: 59px;
+    top: 661px;
+}
+
+.phone {
+    position: absolute;
+    width: 651px;
+    height: 40px;
+    left: 59px;
+    top: 716px;
+}
+
+.buttonCart {
+    position: absolute;
+    width: 315px;
+    height: 48px;
+    left: 395px;
+    top: 786px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #E0E0E0;
+    background: #595959;
+}
+
+.CartCard {
+    position: absolute;
+    width: 619px;
+    height: 1085px;
+    left: 821px;
+    top: 0;
+}
+
+.CardBackground {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #FFFFFF;
+}
+
+.CardTitle {
+    position: absolute;
+    height: 24px;
+    left: 8.08%;
+    right: 7.11%;
+    top: 45px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.CardItem1 {
+    position: absolute;
+    width: 509px;
+    height: 80px;
+    left: 871px;
+    top: 111px;
+}
+
+.cardPhoto1 {
+    position: absolute;
+    left: 0;
+    right: 84.28%;
+    top: 0;
+    bottom: 0;
+    background: url('../photos/ProductPage/photo1.png');
+    background-size: cover;
+}
+
+.cardText1 {
+    position: absolute;
+    height: 14px;
+    left: 100px;
+    right: 0;
+    top: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.cardPrice1 {
+    position: absolute;
+    height: 20px;
+    left: 100px;
+    right: 0;
+    bottom: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #999999;
+}
+
+.CardItem2 {
+    position: absolute;
+    width: 509px;
+    height: 80px;
+    left: 871px;
+    top: 211px;
+}
+
+.cardPhoto2 {
+    position: absolute;
+    width: 80px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: url('../photos/WomenPage/women3.png');
+    background-size: cover;
+}
+
+.cardText2 {
+    position: absolute;
+    height: 14px;
+    left: 100px;
+    right: 0;
+    top: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.cardPrice2 {
+    position: absolute;
+    height: 20px;
+    left: 100px;
+    right: 0;
+    bottom: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #999999;
+}
+
+.line1 {
+    position: absolute;
+    height: 0;
+    left: 8.4%;
+    right: 9.85%;
+    top: 316px;
+    border: 1px solid #C4C4C4;
+}
+
+.line2 {
+    position: absolute;
+    height: 0;
+    left: 8.4%;
+    right: 9.85%;
+    top: 406px;
+    border: 1px solid #C4C4C4;
+}
+
+.subTxt {
+    position: absolute;
+    height: 15px;
+    left: 8.08%;
+    right: 50.89%;
+    top: 341px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+
+}
+
+.taxesTxt {
+    position: absolute;
+    height: 15px;
+    left: 8.08%;
+    right: 50.89%;
+    top: 366px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+.totalTxt {
+    position: absolute;
+    height: 24px;
+    left: 8.08%;
+    right: 50.89%;
+    top: 431px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.subtotalP {
+    position: absolute;
+    height: 15px;
+    left: 49.11%;
+    right: 9.85%;
+    top: 341px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: #999999;
+}
+
+.taxesP {
+    position: absolute;
+    height: 15px;
+    left: 49.11%;
+    right: 9.85%;
+    top: 366px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: #999999;
+}
+
+.totalP {
+    position: absolute;
+    height: 24px;
+    left: 49.11%;
+    right: 9.85%;
+    top: 431px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #000000;
+}
+
+.menuActive p {
+    color: #000000;
+}
