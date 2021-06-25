@@ -1,0 +1,535 @@
+.ProductPage {
+    position: relative;
+    width: 1440px;
+    height: 1923px;
+    background: #F5F7F6;
+}
+
+.main {
+    position: absolute;
+    height: 720px;
+    left: 4.31%;
+    right: 50.83%;
+    top: 140px;
+}
+.image {
+    position: absolute;
+    width: 646px;
+    height: 720px;
+    left: 62px;
+    top: 140px;
+    background: url('../photos/ProductPage/photo1.png')
+}
+.gallery {
+    position: absolute;
+    width: 648px;
+    height: 180px;
+    left: 60px;
+    top: 872px;
+}
+#thumb1 {
+    position: absolute;
+    width: 120px;
+    height: 180px;
+    left: 60px;
+    top: 872px;
+    border: 3px solid #A4A4A4;
+    box-sizing: border-box;
+    background: url('../photos/ProductPage/photo1.png');
+    background-size: cover;
+}
+
+#thumb2 {
+    position: absolute;
+    width: 120px;
+    height: 180px;
+    left: 192px;
+    top: 872px;
+    background: url('../photos/ProductPage/photo2.png')
+}
+
+#thumb3 {
+    position: absolute;
+    width: 120px;
+    height: 180px;
+    left: 324px;
+    top: 872px;
+    background: url('../photos/ProductPage/photo3.png')
+}
+
+#thumb4 {
+    position: absolute;
+    width: 121px;
+    height: 180px;
+    left: 456px;
+    top: 872px;
+    background: url('../photos/ProductPage/photo4.png')
+}
+
+#thumb5 {
+    position: absolute;
+    width: 119px;
+    height: 180px;
+    left: 589px;
+    top: 872px;
+    background: url('../photos/ProductPage/photo5.png')
+}
+
+.title {
+    position: absolute;
+    height: 29px;
+    left: 730px;
+    right: 60px;
+    top: 170px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.descriptiondiv {
+    position: absolute;
+    width: 315px;
+    height: 211px;
+    left: 730px;
+    top: 294px;
+}
+.description {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #4F4F4F;
+}
+
+.price {
+    position: absolute;
+    height: 20px;
+    left: 730px;
+    right: 395px;
+    top: 204px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #999999;
+}
+
+.CartButton {
+    position: absolute;
+    width: 315px;
+    height: 48px;
+    left: 730px;
+    top: 575px;
+    background: #595959;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #E0E0E0;
+}
+
+.structure {
+    position: absolute;
+    width: 315px;
+    height: 149px;
+    left: 730px;
+    top: 693px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #4F4F4F;
+}
+
+.Recomendations {
+    position: absolute;
+    width: 1320px;
+    height: 501px;
+    left: 60px;
+    top: 1272px;
+}
+
+.otherText {
+    position: absolute;
+    width: 211px;
+    height: 29px;
+    left: 60px;
+    top: 1272px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #999999;
+}
+
+.rPhoto1 {
+    position: absolute;
+    height: 453px;
+    left: 27.43%;
+    right: 50.69%;
+    top: 1272px;
+    background: url('../photos/WomenPage/women1.png');
+}
+
+.rPhoto2 {
+    position: absolute;
+    height: 453px;
+    left: 50.56%;
+    right: 27.57%;
+    top: 1272px;
+    background: url('../photos/WomenPage/women2.png');
+}
+
+.rPhoto3 {
+    position: absolute;
+    height: 453px;
+    left: 73.96%;
+    right: 4.17%;
+    top: 1272px;
+    background: url('../photos/WomenPage/women3.png');
+}
+
+.rText1 {
+    position: absolute;
+    height: 12px;
+    left: 395px;
+    right: 730px;
+    top: 1745px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #000000;
+}
+
+.rText2 {
+    position: absolute;
+    height: 12px;
+    left: 728px;
+    right: 397px;
+    top: 1745px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #000000;
+}
+
+.rText3 {
+    position: absolute;
+    height: 12px;
+    left: 1065px;
+    right: 60px;
+    top: 1745px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #000000;
+}
+
+.rPrice1 {
+    position: absolute;
+    height: 11px;
+    left: 395px;
+    right: 730px;
+    top: 1762px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #999999;
+}
+
+.rPrice2 {
+    position: absolute;
+    height: 11px;
+    left: 728px;
+    right: 397px;
+    top: 1762px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #999999;
+}
+
+.rPrice3 {
+    position: absolute;
+    height: 11px;
+    left: 1065px;
+    right: 60px;
+    top: 1762px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #999999;
+}
+
+.Cart {
+    position: absolute;
+    width: 394px;
+    height: 555px;
+    left: 1046px;
+    top: 68px;
+}
+.CB {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #FFFFFF;
+}
+.CartContainer {
+   display:none;
+}
+.Cart {
+    position: absolute;
+    width: 394px;
+    height: 555px;
+    left: 1046px;
+    top: 68px;
+}
+.CartText {
+    position: absolute;
+    height: 24px;
+    left: 8.08%;
+    right: 7.11%;
+    top: 45px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.CI1 {
+    position: absolute;
+    width: 324px;
+    height: 80px;
+    left: 1078px;
+    top: 179px;
+}
+.CI2 {
+    position: absolute;
+    width: 324px;
+    height: 80px;
+    left: 1078px;
+    top: 279px;
+}
+.CP1 {
+    position: absolute;
+    width: 80px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;    
+    background: url('../photos/ProductPage/photo1.png');
+    background-size:cover;
+}
+
+.CT1 {
+    position: absolute;
+    height: 14px;
+    left: 100px;
+    right: 0px;
+    top: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+.CPP1 {
+    position: absolute;
+    height: 20px;
+    left: 100px;
+    right: 0px;
+    bottom: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #999999;
+}
+
+.CP2 {
+    position: absolute;
+    width: 80px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: url('../photos/WomenPage/women3.png');
+    background-size:cover;
+    }
+    
+.CT2 {
+    position: absolute;
+    height: 14px;
+    left: 100px;
+    right: 0px;
+    top: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    }
+
+.CPP2 {
+    position: absolute;
+    height: 20px;
+    left: 100px;
+    right: 0px;
+    bottom: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #999999;
+}
+.line1 {
+    position: absolute;
+    height: 0px;
+    left: 8.4%;
+    right: 9.85%;
+    top: 316px;
+    border: 1px solid #C4C4C4;
+}
+
+.line2 {
+    position: absolute;
+    height: 0px;
+    left: 8.4%;
+    right: 9.85%;
+    top: 406px;
+    border: 1px solid #C4C4C4;
+}
+
+.Subtotal {
+    position: absolute;
+    height: 15px;
+    left: 8.08%;
+    right: 50.89%;
+    top: 341px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.SubtotalP {
+    position: absolute;
+    height: 15px;
+    left: 49.11%;
+    right: 9.85%;
+    top: 341px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: #999999;
+}
+
+.Taxes {
+    position: absolute;
+    height: 15px;
+    left: 8.08%;
+    right: 50.89%;
+    top: 366px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.TaxesP {
+    position: absolute;
+    height: 15px;
+    left: 49.11%;
+    right: 9.85%;
+    top: 366px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: #999999;
+}
+
+.Total {
+    position: absolute;
+    height: 24px;
+    left: 8.08%;
+    right: 50.89%;
+    top: 431px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.TotalP {
+    position: absolute;
+    height: 24px;
+    left: 49.11%;
+    right: 9.85%;
+    top: 431px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #000000;
+}
+
+.Checkout {
+    position: absolute;
+    width: 320px;
+    height: 48px;
+    left: 1082px;
+    top: 551px;
+    background: #595959;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;  
+    color: #E0E0E0;
+}

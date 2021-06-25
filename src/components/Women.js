@@ -1,13 +1,16 @@
 import React from 'react'
 import '../css/Women.css'
+import Navigation from './Navigation'
+import {useHistory} from "react-router-dom";
 export default function Women() {
+    let history = useHistory();
     return (
         <div className="Women">
               <span id="title">Women</span>
               <img alt='' className="women1"/>
               <img alt='' className="women2"/>
               <img alt='' className="women3"/>
-              <img alt='' className="women4"/>
+              <img alt='' className="women4" onClick={()=>history.push('/productpage')}/>
               <img alt='' className="women1"/>
               <img alt='' className="women2"/>
               <img alt='' className="women3"/>
@@ -50,6 +53,7 @@ export default function Women() {
                <p className="PriceStyle" id="priceposition12">€135</p>
                <p className="PriceStyle" id="priceposition13">€135</p>
                <p className="PriceStyle" id="priceposition15">€135</p>
+               <Navigation />
         </div>
     )
 }

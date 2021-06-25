@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/Men.css'
+import Navigation from './Navigation'
 export default function Men() {
     return (
         <div className="Men">
@@ -50,6 +51,7 @@ export default function Men() {
                <p className="PriceStyle" id="priceposition12">€135</p>
                <p className="PriceStyle" id="priceposition13">€135</p>
                <p className="PriceStyle" id="priceposition15">€135</p>
+               <Navigation />
         </div>
     )
 }
