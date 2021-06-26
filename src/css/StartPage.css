@@ -102,10 +102,10 @@
 
 .MenText {
     position: absolute;
-    width: 85px;
+    width: 50px;
     height: 29px;
-    left: 61px;
-    top: 819px;
+    left: 1330px;
+    top: 919px;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -193,3 +193,70 @@
     opacity: 0.6;
     transition: 0.3s;
 }
+
+@media only screen and (max-width: 1024px) {
+    .StartPage {
+        width:1024px;
+    }
+    .WomenPhoto {
+        width: 46.5%;
+        height: 46.5%;
+    }
+    .WomenText {
+        top: 620px;
+        font-size: 18px;
+    }
+    .SaleWomenPhoto {
+       height:300px;
+       width: 400px;
+       top: 580px;
+       left: 310px;
+    }
+    .SaleWomenText1 {
+        top: 900px;
+        left: 315px;
+        font-size: 18px;
+    }
+    .SaleWomenText2 {
+        top: 900px;
+        left: 360px;
+        font-size: 18px;
+    }
+    .MenPhoto {
+        width: 46.5%;
+        height: 46.5%;
+        left: 540px;
+    }
+    .MenText {
+        top: 720px;
+        left: 970px;
+        font-size: 18px;
+    }
+    .SaleMenPhoto {
+        top: 680px;
+        left: 550px;
+        height:290px;
+        width: 390px;
+    }
+    .SaleMenText1 {
+        top: 990px;
+        left: 630px;
+        font-size: 18px;
+    }
+    .SaleMenText2 {
+        top: 990px;
+        left: 675px;
+        font-size: 18px;
+    }
+    .MenBottomPhoto {
+        width: 65%;
+        top: 1100px;
+    }
+
+
+    .WomenBottomPhoto {
+        width: 65%;
+        top: 1330px;
+        left: 310px
+    }
+  }

@@ -39,37 +39,132 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
-.Women img {
-    margin-bottom: 88px;
-}
 
-.Women img:hover {
+.Women .photos div:hover {
     opacity: 0.6;
     transition: 0.3s;
 }
 
-img:nth-child(2n + 1) {
-    position: relative;
-    width: 315px;
+.Women .photos div:nth-child(1) {
+    position: absolute;
     height: 453px;
     left: 4.17%;
-    top: 349px;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-img:nth-child(2n) {
-    position: relative;
-    margin-right: 20px;
-    margin-left: 20px;
-    width: 315px;
-    height: 453px;
-    left: 4.17%;
+    right: 73.96%;
     top: 259px;
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
+.Women .photos div:nth-child(2) {
+    position: absolute;
+    height: 453px;
+    left: 27.43%;
+    right: 50.69%;
+    top: 349px;
+}
+
+.Women .photos div:nth-child(3) {
+    position: absolute;
+    height: 453px;
+    left: 50.69%;
+    right: 27.43%;
+    top: 259px;
+}
+
+.Women .photos div:nth-child(4) {
+    position: absolute;
+    height: 453px;
+    left: 73.96%;
+    right: 4.17%;
+    top: 349px;
+}
+
+.Women .photos div:nth-child(5) {
+    position: absolute;
+    height: 453px;
+    left: 4.17%;
+    right: 73.96%;
+    top: 800px;
+}
+
+.Women .photos div:nth-child(6) {
+    position: absolute;
+    height: 453px;
+    left: 27.43%;
+    right: 50.69%;
+    top: 890px;
+}
+
+.Women .photos div:nth-child(7) {
+    position: absolute;
+    height: 453px;
+    left: 50.69%;
+    right: 27.43%;
+    top: 800px;
+}
+
+.Women .photos div:nth-child(8) {
+    position: absolute;
+    height: 453px;
+    left: 73.96%;
+    right: 4.17%;
+    top: 890px;
+}
+
+.Women .photos div:nth-child(9) {
+    position: absolute;
+    height: 453px;
+    left: 4.17%;
+    right: 73.96%;
+    top: 1341px;    
+}
+.Women .photos div:nth-child(10) {
+    position: absolute;
+    height: 453px;
+    left: 27.43%;
+    right: 50.69%;
+    top: 1431px;
+}
+.Women .photos div:nth-child(11) {
+    position: absolute;
+    height: 453px;
+    left: 50.69%;
+    right: 27.43%;
+    top: 1341px;
+}
+.Women .photos div:nth-child(12) {
+    position: absolute;
+    height: 453px;
+    left: 73.96%;
+    right: 4.17%;
+    top: 1431px;
+}
+.Women .photos div:nth-child(13) {
+    position: absolute;
+    height: 453px;
+    left: 4.17%;
+    right: 73.96%;
+    top: 1882px;
+}
+.Women .photos div:nth-child(14) {
+    position: absolute;
+    height: 453px;
+    left: 27.43%;
+    right: 50.69%;
+    top: 1972px;
+}
+.Women .photos div:nth-child(15) {
+    position: absolute;
+    height: 453px;
+    left: 50.69%;
+    right: 27.43%;
+    top: 1882px;
+}
+.Women .photos div:nth-child(16) {
+    position: absolute;
+    height: 453px;
+    left: 73.96%;
+    right: 4.17%;
+    top: 1972px;
+}
 .TextStyle {
     font-family: Inter;
     font-style: normal;
@@ -267,7 +362,7 @@ img:nth-child(2n) {
     left: 105px;
     right: 1065px;
     top: 1290px;
-    text-decoration:line-through
+    text-decoration: line-through
 }
 
 #priceposition6 {

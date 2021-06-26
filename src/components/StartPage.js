@@ -13,7 +13,7 @@ export default function StartPage() {
                 <span className="SaleWomenText1">Sale</span>  <span className="SaleWomenText2">(Women)</span>
 
                 <div className="MenPhoto"></div>
-                <span className="MenText">Women</span>
+                <span className="MenText">Men</span>
                 <div className="SaleMenPhoto"></div>
                 <span className="SaleMenText1">Sale</span>  <span className="SaleMenText2">(Men)</span>
 
