@@ -1,33 +1,39 @@
-import React, {useEffect} from 'react'
+import React, {useEffect,useState} from 'react'
 import Navigation from './Navigation'
 import '../css/ProductPage.css'
 export default function ProductPage() {
-    const main = document.getElementsByClassName('image')
+    let [MainImage, setMainImage] = useState('');
     const displayCart = () => {
     document.querySelector('.CartContainer').style.display = "block";
     }
     useEffect(() => {
-        var thumb = document.getElementsByClassName('thumb')
-        for(let i =0;i<thumb.length;i++)
-        thumb[i].addEventListener('click',changePhoto)
+        for(let i =1;i<=5;i++) {
+        var thumb = document.querySelector('#thumb'+i)
+        thumb.addEventListener('click',changePhoto)
+        }
     });
-  function changePhoto (){
-        let text = this.id;
-        let finished = text.substring(5,6);
-        console.log(finished)
-        let photo = '..photos/ProductImage/photo'+finished+'.png'
-       main[0].style.backgroundImage = `url(${photo})`
-       console.log(main[0].style.backkground)
+
+    function changePhoto () {
+    if(MainImage==='') {
+    document.querySelector('#thumb1').style.border = 'none'
+     setMainImage(this.id);
+    document.querySelector('.'+this.id).classList.add('activeThumb')
+    }
+    else {
+        document.querySelector('#'+MainImage).classList.remove('activeThumb')
+        setMainImage(this.id);
+        document.querySelector('.'+this.id).classList.add('activeThumb')
+    }
   }
 
     return (
     <div className='ProductPage'>
-        <div className="image"></div>
-             <div className="thumb" id="thumb1" alt=''></div>
-             <div className="thumb" id="thumb2" alt=''></div>
-             <div className="thumb" id="thumb3" alt=''></div>
-             <div className="thumb" id="thumb4" alt=''></div>
-             <div className="thumb" id="thumb5" alt=''></div>
+        <div id={MainImage} className="image"></div>
+             <div className="thumb1" id="thumb1" alt=''></div>
+             <div className="thumb2 "id="thumb2" alt=''></div>
+             <div className="thumb3"id="thumb3" alt=''></div>
+             <div className="thumb4" id="thumb4" alt=''></div>
+             <div className="thumb5" id="thumb5" alt=''></div>
              <span className="title">RECYCLED POLYESTER PERFORMANCE PARKA</span>
              <span className="price">€135</span>
              <div className="descriptiondiv">
