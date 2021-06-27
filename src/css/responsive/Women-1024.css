@@ -1,249 +1,272 @@
 @media only screen and (max-width: 1024px) {
-    .Women {
-        width:1024px;
-        height: 3650px;
-    }
-    .Women #title {
-        left: 470px
-    }
-    .Women .photos div{
-        height:auto;
-        width: 300px;
-    }
-    .Women #textposition1 {
-      width: 100px;
-      height:100px;
-      top: 700px;
-      width:300px;
-      left: 40px;
-    }
-    .Women #priceposition1 {
-        width: 100px;
-        height:100px;
-        top: 715px;
-        width:300px;
-        left: 40px;
-      }
-      .Women #textposition2 {
-        width: 100px;
-        height:100px;
-        top: 790px;
-        width:300px;
-        left: 360px;
-      }
-      .Women #priceposition2 {
-          width: 100px;
-          height:100px;
-          top: 805px;
-          width:300px;
-          left: 360px;
-        }
-        .Women #textposition3 {
-            width: 100px;
-            height:100px;
-            top: 700px;
-            width:300px;
-            left: 680px;
-          }
-          .Women #priceposition3 {
-              width: 100px;
-              height:100px;
-              top: 715px;
-              width:300px;
-              left: 680px;
-            }
-            .Women #textposition4 {
-                width: 100px;
-                height:100px;
-                top: 1290px;
-                width:300px;
-                left: 115px;
-              }
-              .Women #priceposition4 {
-                  width: 100px;
-                  height:100px;
-                  top: 1305px;
-                  width:300px;
-                  left: 100px;
-                }
-                .Women #priceposition44 {
-                    width: 100px;
-                    height:100px;
-                    top: 1305px;
-                    width:300px;
-                    left: 125px;
-                  }
-                  .Women #textposition5 {
-                    width: 100px;
-                    height:100px;
-                    top: 1290px;
-                    width:300px;
-                    left: 600px;
-                  }
-                  .Women #priceposition5 {
-                    width: 100px;
-                    height:100px;
-                    top: 1305px;
-                    width:300px;
-                    left: 615px;
-                  }
-                  .Women #priceposition55 {
-                      width: 100px;
-                      height:100px;
-                      top: 1305px;
-                      width:300px;
-                      left: 590px;
-                    }
-                    .Women #priceposition6 {
-                        width: 100px;
-                        height:100px;
-                        top: 1795px;
-                        width:300px;
-                        left: 360px;
-                      }
-                      .Women #textposition6 {
-                          width: 100px;
-                          height:100px;
-                          top: 1780px;
-                          width:300px;
-                          left: 360px;
-                        }
-                        .Women #priceposition7{
-                            width: 100px;
-                            height:100px;
-                            top: 2335px;
-                            width:300px;
-                            left: 40px;
-                          }
-                          .Women #textposition7 {
-                              width: 100px;
-                              height:100px;
-                              top: 2320px;
-                              width:300px;
-                              left: 40px;
-                            }
-                            .Women #priceposition8 {
-                                width: 100px;
-                                height:100px;
-                                top: 2430px;
-                                width:300px;
-                                left: 360px;
-                              }
-                              .Women #textposition8 {
-                                  width: 100px;
-                                  height:100px;
-                                  top: 2415px;
-                                  width:300px;
-                                  left: 360px;
-                                }
-                                .Women #textposition9 {
-                                    width: 100px;
-                                    height:100px;
-                                    top: 2320px;
-                                    width:300px;
-                                    left: 680px;
-                                  }
-                                  .Women #priceposition9 {
-                                      width: 100px;
-                                      height:100px;
-                                      top: 2335px;
-                                      width:300px;
-                                      left: 680px;
-                                    }
-                                    .Women #textposition10 {
-                                        width: 100px;
-                                        height:100px;
-                                        top: 2920px;
-                                        width:300px;
-                                        left: 115px;
-                                      }
-                                      .Women #priceposition10 {
-                                          width: 100px;
-                                          height:100px;
-                                          top: 2935px;
-                                          width:300px;
-                                          left: 100px;
-                                        }
-                                        .Women #textposition11 {
-                                            width: 100px;
-                                            height:100px;
-                                            top: 2920px;
-                                            width:300px;
-                                            left: 600px;
-                                          }
-                                          .Women #priceposition11 {
-                                              width: 100px;
-                                              height:100px;
-                                              top: 2935px;
-                                              width:300px;
-                                              left: 600px;
-                                            }
-                                            .Women #priceposition6 {
-                                                width: 100px;
-                                                height:100px;
-                                                top: 3415px;
-                                                width:300px;
-                                                left: 360px;
-                                              }
-                                              .Women #textposition6 {
-                                                  width: 100px;
-                                                  height:100px;
-                                                  top: 3400px;
-                                                  width:300px;
-                                                  left: 360px;
-                                                }
-    .Women .photos div:nth-child(2) {
-        left:360px;
-    }
-    .Women .photos div:nth-child(3) {
-        left:680px;
-    }
-    .Women .photos div:nth-child(4) {
-        left: 120px;
-        top: 850px;
-    }
-    .Women .photos div:nth-child(5) {
-        left: 600px;
-        top: 850px;
-    }
-    .Women .photos div:nth-child(6) {
-        top: 1335px;
-        left: 360px;
-    }
-    .Women .photos div:nth-child(7) {
-        left: 42px;
-        top:1882px;
-    }
-    .Women .photos div:nth-child(8) {
-        left:360px;
-        top: 1971px;
-    }
-    .Women .photos div:nth-child(9) {
-        left:680px;
-        top: 1882px;
-    }
-    .Women .photos div:nth-child(10) {
-        left: 120px;
-        top: 2480px;
-    }
-    .Women .photos div:nth-child(11) {
-        left: 600px;
-        top: 2480px;
-    }
-    .Women .photos div:nth-child(12) {
-            top: 2960px;
-            left: 360px;
-    }
-    .Women .photos div:nth-child(13) {
-        display:none;
-    }
-    .Women .photos div:nth-child(14) {
-        display:none;
-    }
-    .Women .photos div:nth-child(15) {
-        display:none;
-    }
-    .Women .photos div:nth-child(16) {
-        display:none;
-    }
+.Women {
+    width: 1024px;
+    height: 3650px;
+}
+.Women #title {
+    left: 470px
+}
+.Women .photos div {
+    height: auto;
+    width: 300px;
+}
+.Women #textposition1 {
+    width: 100px;
+    height: 100px;
+    top: 700px;
+    width: 300px;
+    left: 40px;
+}
+.Women #priceposition1 {
+    width: 100px;
+    height: 100px;
+    top: 715px;
+    width: 300px;
+    left: 40px;
+}
+.Women #textposition2 {
+    width: 100px;
+    height: 100px;
+    top: 790px;
+    width: 300px;
+    left: 360px;
+}
+.Women #priceposition2 {
+    width: 100px;
+    height: 100px;
+    top: 805px;
+    width: 300px;
+    left: 360px;
+}
+.Women #textposition3 {
+    width: 100px;
+    height: 100px;
+    top: 700px;
+    width: 300px;
+    left: 680px;
+}
+.Women #priceposition3 {
+    width: 100px;
+    height: 100px;
+    top: 715px;
+    width: 300px;
+    left: 680px;
+}
+.Women #textposition4 {
+    width: 100px;
+    height: 100px;
+    top: 1290px;
+    width: 300px;
+    left: 115px;
+}
+.Women #priceposition4 {
+    width: 100px;
+    height: 100px;
+    top: 1305px;
+    width: 300px;
+    left: 100px;
+}
+.Women #priceposition44 {
+    width: 100px;
+    height: 100px;
+    top: 1305px;
+    width: 300px;
+    left: 125px;
+}
+.Women #textposition5 {
+    width: 100px;
+    height: 100px;
+    top: 1290px;
+    width: 300px;
+    left: 600px;
+}
+.Women #priceposition5 {
+    width: 100px;
+    height: 100px;
+    top: 1305px;
+    width: 300px;
+    left: 615px;
+}
+.Women #priceposition55 {
+    width: 100px;
+    height: 100px;
+    top: 1305px;
+    width: 300px;
+    left: 590px;
+}
+.Women #priceposition6 {
+    width: 100px;
+    height: 100px;
+    top: 1795px;
+    width: 300px;
+    left: 360px;
+}
+.Women #textposition6 {
+    width: 100px;
+    height: 100px;
+    top: 1780px;
+    width: 300px;
+    left: 360px;
+}
+.Women #priceposition7 {
+    width: 100px;
+    height: 100px;
+    top: 2335px;
+    width: 300px;
+    left: 40px;
+}
+.Women #textposition7 {
+    width: 100px;
+    height: 100px;
+    top: 2320px;
+    width: 300px;
+    left: 40px;
+}
+.Women #priceposition8 {
+    width: 100px;
+    height: 100px;
+    top: 2430px;
+    width: 300px;
+    left: 360px;
+}
+.Women #textposition8 {
+    width: 100px;
+    height: 100px;
+    top: 2415px;
+    width: 300px;
+    left: 360px;
+}
+.Women #textposition9 {
+    width: 100px;
+    height: 100px;
+    top: 2320px;
+    width: 300px;
+    left: 680px;
+}
+.Women #priceposition9 {
+    width: 100px;
+    height: 100px;
+    top: 2335px;
+    width: 300px;
+    left: 680px;
+}
+.Women #textposition10 {
+    width: 100px;
+    height: 100px;
+    top: 2920px;
+    width: 300px;
+    left: 115px;
+}
+.Women #priceposition10 {
+    width: 100px;
+    height: 100px;
+    top: 2935px;
+    width: 300px;
+    left: 100px;
+}
+.Women #textposition11 {
+    width: 100px;
+    height: 100px;
+    top: 2920px;
+    width: 300px;
+    left: 600px;
+}
+.Women #priceposition11 {
+    width: 100px;
+    height: 100px;
+    top: 2935px;
+    width: 300px;
+    left: 600px;
+}
+.Women #priceposition12 {
+    width: 100px;
+    height: 100px;
+    top: 3415px;
+    width: 300px;
+    left: 360px;
+}
+
+.Women #textposition12 {
+    width: 100px;
+    height: 100px;
+    top: 3400px;
+    width: 300px;
+    left: 360px;
+}
+
+
+.Women #textposition13 {
+    display:none;
+}
+
+.Women #priceposition13 {
+    display:none;
+}
+
+.Women #textposition13 {
+    display:none;
+}
+.Women #priceposition15 {
+    display:none;
+}
+
+.Women #textposition15 {
+    display:none;
+}
+
+
+.Women .photos div:nth-child(2) {
+    left: 360px;
+}
+.Women .photos div:nth-child(3) {
+    left: 680px;
+}
+.Women .photos div:nth-child(4) {
+    left: 120px;
+    top: 850px;
+}
+.Women .photos div:nth-child(5) {
+    left: 600px;
+    top: 850px;
+}
+.Women .photos div:nth-child(6) {
+    top: 1335px;
+    left: 360px;
+}
+.Women .photos div:nth-child(7) {
+    left: 42px;
+    top: 1882px;
+}
+.Women .photos div:nth-child(8) {
+    left: 360px;
+    top: 1971px;
+}
+.Women .photos div:nth-child(9) {
+    left: 680px;
+    top: 1882px;
+}
+.Women .photos div:nth-child(10) {
+    left: 120px;
+    top: 2480px;
+}
+.Women .photos div:nth-child(11) {
+    left: 600px;
+    top: 2480px;
+}
+.Women .photos div:nth-child(12) {
+    top: 2960px;
+    left: 360px;
+}
+.Women .photos div:nth-child(13) {
+    display: none;
+}
+.Women .photos div:nth-child(14) {
+    display: none;
+}
+.Women .photos div:nth-child(15) {
+    display: none;
+}
+.Women .photos div:nth-child(16) {
+    display: none;
+}
 }

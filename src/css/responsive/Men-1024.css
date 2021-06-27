@@ -1,0 +1,270 @@
+@media only screen and (max-width: 1024px) {
+    .Men {
+        width: 1024px;
+        height: 3650px;
+    }
+    .Men #title {
+        left: 470px
+    }
+    .Men .photos div {
+        height: auto;
+        width: 300px;
+    }
+    .Men #textposition1 {
+        width: 100px;
+        height: 100px;
+        top: 700px;
+        width: 300px;
+        left: 40px;
+    }
+    .Men #priceposition1 {
+        width: 100px;
+        height: 100px;
+        top: 715px;
+        width: 300px;
+        left: 40px;
+    }
+    .Men #textposition2 {
+        width: 100px;
+        height: 100px;
+        top: 790px;
+        width: 300px;
+        left: 360px;
+    }
+    .Men #priceposition2 {
+        width: 100px;
+        height: 100px;
+        top: 805px;
+        width: 300px;
+        left: 360px;
+    }
+    .Men #textposition3 {
+        width: 100px;
+        height: 100px;
+        top: 700px;
+        width: 300px;
+        left: 680px;
+    }
+    .Men #priceposition3 {
+        width: 100px;
+        height: 100px;
+        top: 715px;
+        width: 300px;
+        left: 680px;
+    }
+    .Men #textposition4 {
+        width: 100px;
+        height: 100px;
+        top: 1290px;
+        width: 300px;
+        left: 115px;
+    }
+    .Men #priceposition4 {
+        width: 100px;
+        height: 100px;
+        top: 1305px;
+        width: 300px;
+        left: 100px;
+    }
+    .Men #priceposition44 {
+        width: 100px;
+        height: 100px;
+        top: 1305px;
+        width: 300px;
+        left: 125px;
+    }
+    .Men #textposition5 {
+        width: 100px;
+        height: 100px;
+        top: 1290px;
+        width: 300px;
+        left: 600px;
+    }
+    .Men #priceposition5 {
+        width: 100px;
+        height: 100px;
+        top: 1305px;
+        width: 300px;
+        left: 615px;
+    }
+    .Men #priceposition55 {
+        width: 100px;
+        height: 100px;
+        top: 1305px;
+        width: 300px;
+        left: 590px;
+    }
+    .Men #priceposition6 {
+        width: 100px;
+        height: 100px;
+        top: 1795px;
+        width: 300px;
+        left: 360px;
+    }
+    .Men #textposition6 {
+        width: 100px;
+        height: 100px;
+        top: 1780px;
+        width: 300px;
+        left: 360px;
+    }
+    .Men #priceposition7 {
+        width: 100px;
+        height: 100px;
+        top: 2335px;
+        width: 300px;
+        left: 40px;
+    }
+    .Men #textposition7 {
+        width: 100px;
+        height: 100px;
+        top: 2320px;
+        width: 300px;
+        left: 40px;
+    }
+    .Men #priceposition8 {
+        width: 100px;
+        height: 100px;
+        top: 2430px;
+        width: 300px;
+        left: 360px;
+    }
+    .Men #textposition8 {
+        width: 100px;
+        height: 100px;
+        top: 2415px;
+        width: 300px;
+        left: 360px;
+    }
+    .Men #textposition9 {
+        width: 100px;
+        height: 100px;
+        top: 2320px;
+        width: 300px;
+        left: 680px;
+    }
+    .Men #priceposition9 {
+        width: 100px;
+        height: 100px;
+        top: 2335px;
+        width: 300px;
+        left: 680px;
+    }
+    .Men #textposition10 {
+        width: 100px;
+        height: 100px;
+        top: 2920px;
+        width: 300px;
+        left: 115px;
+    }
+    .Men #priceposition10 {
+        width: 100px;
+        height: 100px;
+        top: 2935px;
+        width: 300px;
+        left: 100px;
+    }
+    .Men #textposition11 {
+        width: 100px;
+        height: 100px;
+        top: 2920px;
+        width: 300px;
+        left: 600px;
+    }
+    .Men #priceposition11 {
+        width: 100px;
+        height: 100px;
+        top: 2935px;
+        width: 300px;
+        left: 600px;
+    }
+    .Men #priceposition12 {
+        width: 100px;
+        height: 100px;
+        top: 3415px;
+        width: 300px;
+        left: 360px;
+    }
+    
+    .Men #textposition12 {
+        width: 100px;
+        height: 100px;
+        top: 3400px;
+        width: 300px;
+        left: 360px;
+    }
+    
+    
+    .Men #textposition13 {
+        display:none;
+    }
+    
+    .Men #priceposition13 {
+        display:none;
+    }
+    
+    .Men #textposition13 {
+        display:none;
+    }
+    .Men #priceposition15 {
+        display:none;
+    }
+    
+    .Men #textposition15 {
+        display:none;
+    }
+    .Men .photos div:nth-child(2) {
+        left: 360px;
+    }
+    .Men .photos div:nth-child(3) {
+        left: 680px;
+    }
+    .Men .photos div:nth-child(4) {
+        left: 120px;
+        top: 850px;
+    }
+    .Men .photos div:nth-child(5) {
+        left: 600px;
+        top: 850px;
+    }
+    .Men .photos div:nth-child(6) {
+        top: 1335px;
+        left: 360px;
+    }
+    .Men .photos div:nth-child(7) {
+        left: 42px;
+        top: 1882px;
+    }
+    .Men .photos div:nth-child(8) {
+        left: 360px;
+        top: 1971px;
+    }
+    .Men .photos div:nth-child(9) {
+        left: 680px;
+        top: 1882px;
+    }
+    .Men .photos div:nth-child(10) {
+        left: 120px;
+        top: 2480px;
+    }
+    .Men .photos div:nth-child(11) {
+        left: 600px;
+        top: 2480px;
+    }
+    .Men .photos div:nth-child(12) {
+        top: 2960px;
+        left: 360px;
+    }
+    .Men .photos div:nth-child(13) {
+        display: none;
+    }
+    .Men .photos div:nth-child(14) {
+        display: none;
+    }
+    .Men .photos div:nth-child(15) {
+        display: none;
+    }
+    .Men .photos div:nth-child(16) {
+        display: none;
+    }
+    }

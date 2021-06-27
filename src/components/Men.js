@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/Men.css'
+import '../css/responsive/Men-1024.css'
 import Navigation from './Navigation'
 export default function Men() {
     return (
