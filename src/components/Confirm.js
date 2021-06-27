@@ -1,10 +1,19 @@
-import React from 'react'
+import React ,{useEffect} from 'react'
 import '../css/Confirm.css'
+import '../css/responsive/Confirm-1024.css'
 export default function Confirm() {
     const ordered = () => {
         document.querySelector('.toOrder').style.display = "none";
         document.querySelector('.ordered').style.display = "block";
+        document.querySelector('.CardItem1').style.display = 'none'
+        document.querySelector('.CardItem2').style.display = 'none'
+        document.querySelector('.CartCard').style.display = 'none'
         }
+        useEffect(() => {
+            document.querySelector('.CardItem1').style.display = 'block'
+            document.querySelector('.CardItem2').style.display = 'block'
+            document.querySelector('.CartCard').style.display = 'block'
+          });
     return (
         <div className="ConfirmPages">
             <div className="toOrder">

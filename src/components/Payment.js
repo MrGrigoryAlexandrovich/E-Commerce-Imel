@@ -1,9 +1,12 @@
 import React from 'react'
 import '../css/PaymentPage.css'
+import '../css/responsive/Payment-1024.css'
+import {Link } from "react-router-dom";
 export default function Payment() {
     return (
         <div className="PaymentPage">
            <span className="PaymentProvider">Payment provider</span>
+           <div className="Payments">
            <div className="PayPal">
            </div>
            <div className="PayPalPhoto"></div>
@@ -16,7 +19,8 @@ export default function Payment() {
            <div className="Klarna">
            </div>
            <div className="KlarnaPhoto"></div>
-           <button className="goToConfirm">Continue to Confirm</button>
+           </div>
+           <Link to="/contact/confirm"><button className="goToConfirm">Continue to Confirm</button></Link>
         </div>
     )
 }

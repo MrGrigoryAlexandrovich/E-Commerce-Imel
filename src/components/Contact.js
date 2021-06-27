@@ -1,6 +1,7 @@
 import React from 'react'
 import {BrowserRouter as Router, Switch, Route,NavLink} from "react-router-dom";
 import '../css/Contact.css'
+import '../css/responsive/Contact-1024.css'
 import Information from './Information'
 import Payment from './Payment'
 import Confirm from './Confirm'

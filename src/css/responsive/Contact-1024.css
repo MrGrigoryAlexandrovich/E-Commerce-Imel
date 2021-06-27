@@ -1,0 +1,91 @@
+@media only screen and (max-width: 1024px) {
+    .Contact {
+        width: 1024px;
+        height: 850px;
+    }
+    .CartCard {
+        display:none;
+    }
+    .CardItem1 {
+        display:none;
+    }
+    .CardItem2 {
+        display:none;
+    }
+    .cos {
+        top: 20px;
+        left: 490px;
+    }
+    #information {
+        left: 400px;
+        top: 60px;
+    }
+    .v1 {
+        top: 63px;
+        left: 480px;
+    }
+    #payment {
+        left: 500px;
+        top: 60px;
+    }
+    .v2 {
+        top: 63px;
+        left: 560px;
+    }
+    #confirm {
+        left: 580px;
+        top: 60px;
+    }
+    .contactInfo {
+        top: 140px;
+        left: 440px;
+    }
+    .email {
+        top: 210px;
+        left:200px;
+    }
+    .shipping {
+        left: 200px;
+        top: 280px;
+    }
+    .firstname {
+        left:200px;
+        top: 315px;
+    }
+    .lastname {
+        left: 535px;
+        top: 315px;
+    }
+    .company {
+        left:200px;
+        top: 370px;
+    }
+    .address {
+        left:200px;
+        top: 425px;
+    }
+    .apartment {
+        left:200px;
+        top: 480px;
+    }
+    .postalcode {
+        left:200px;
+        top: 535px;
+    }
+    .city {
+        left: 535px;
+        top: 535px;
+    }
+    .country {
+        left:200px;
+        top: 590px;
+    }
+    .phone {
+        left:200px;
+        top: 645px;
+    }
+    .buttonCart{
+        top: 705px;
+        left:400px;
+    }
+}

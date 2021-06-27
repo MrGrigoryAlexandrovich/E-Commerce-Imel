@@ -1,4 +1,5 @@
-import React from 'react'
+import React  from 'react'
+import {Link } from "react-router-dom";
 
 export default function Information() {
     return (
@@ -15,7 +16,7 @@ export default function Information() {
         <input type="text" placeholder="City" className="city"></input>
         <input type="text" placeholder="Country/Region" className="country"></input>
         <input type="text" placeholder="Phone (optional)" className="phone"></input>
-        <button className="buttonCart">Continue to Payment</button>
+        <Link to="/contact/payment"><button className="buttonCart">Continue to Payment</button></Link>
         </form>
     )
 }

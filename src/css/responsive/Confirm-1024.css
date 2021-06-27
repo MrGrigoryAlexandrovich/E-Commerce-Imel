@@ -1,0 +1,54 @@
+@media only screen and (max-width: 1024px) {
+    .CartCard {
+        left:700px;
+        height:400px;
+        width:300px;
+        top: 150px;
+    }
+    .toOrder button {
+        left: 50px;
+    }
+    .CardTitle {
+        top:10px;
+        left:10px;
+    }
+    .CardItem1 {
+        left: 710px;
+        top: 200px;
+    }
+    .CardItem2 {
+        left: 710px;
+        top: 300px;
+    }
+    .CardBackground .line1 {
+        top:250px;
+    }
+    .CardBackground .line2 {
+        top:320px;
+    }
+    .subTxt {
+        top:270px;
+    }
+
+    .subtotalP {
+        top:270px;
+    }
+    .taxesTxt {
+        top: 290px;
+    }
+    .taxesP {
+        top:290px;
+    }
+    .cardText1 {
+        font-size:8px;
+    }
+    .cardText2 {
+        font-size:8px;
+    }
+    .totalTxt {
+        top: 350px;
+    }
+    .totalP {
+        top: 350px;
+    }
+}
