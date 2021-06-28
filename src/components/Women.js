@@ -1,6 +1,7 @@
 import React from 'react'
 import '../css/Women.css'
 import '../css/responsive/Women-1024.css'
+import '../css/responsive/Women-360.css'
 import Navigation from './Navigation'
 import {useHistory} from "react-router-dom";
 export default function Women() {

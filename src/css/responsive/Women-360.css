@@ -1,0 +1,255 @@
+@media only screen and (max-width: 360px) {
+    @media only screen and (max-width: 1024px) {
+        .Women {
+            width: 360px;
+            height: 1300px;
+        }
+        .Women #title {
+            left: 130px;
+            top: 90px;
+        }
+        .Women .photos div {
+            height: auto;
+            width: 25%;
+        }
+        .Women #textposition1 {
+            top: 285px;
+            left: 10px;
+            font-size:8px;
+            width:100px;
+        }
+        .Women #priceposition1 {
+            top: 310px;
+            left: 10px;
+            font-size:8px;
+            width:100px;
+        }
+        .Women #textposition2 {
+            top: 305px;
+            left: 130px;
+            font-size:8px;
+            width:100px;
+        }
+        .Women #priceposition2 {
+            top: 330px;
+            left: 130px;
+            font-size:8px;
+            width:100px;
+        }
+        .Women #textposition3 {
+            top: 285px;
+            left: 250px;
+            font-size:8px;
+            width:100px;
+        }
+        .Women #priceposition3 {
+            top: 310px;
+            left: 250px;
+            font-size:8px;
+            width:100px;
+        }
+        .Women #textposition4 {
+            top: 480px;
+            left: 45px;
+            font-size:8px;
+            width:100px;
+        }
+        .Women #priceposition4 {
+            top: 505px;
+            left: 35px;
+            font-size:8px;
+            width:100px;
+        }
+        .Women #priceposition44 {
+            top: 505px;
+            left: 55px;
+            font-size:8px;
+            width:100px;
+        }
+        .Women #textposition5 {
+            top: 480px;
+            left: 205px;
+            font-size:8px;
+            width:100px;
+        }
+        .Women #priceposition5 {
+            top: 505px;
+            left: 190px;
+            font-size:8px;
+            width:100px;
+        }
+        .Women #priceposition55 {
+            top: 505px;
+            left: 190px;
+            font-size:8px;
+            width:100px;
+            left: 210px;
+        }
+        .Women #textposition6 {
+            top: 660px;
+            left: 130px;
+            font-size:8px;
+            width:100px;
+        }
+        .Women #priceposition6 {
+            top: 685px;
+            left: 130px;
+            font-size:8px;
+            width:100px;
+        }
+        .Women #textposition7 {
+            top: 860px;
+            left: 10px;
+            font-size:8px;
+            width:100px;
+        }
+        .Women #priceposition7 {
+            top: 885px;
+            left: 10px;
+            font-size:8px;
+            width:100px;
+        }
+        .Women #textposition8 {
+            top: 880px;
+            left: 130px;
+            font-size:8px;
+            width:100px;
+        }
+        .Women #priceposition8 {
+            top: 905px;
+            left: 130px;
+            font-size:8px;
+            width:100px;
+        }
+        .Women #textposition9 {
+            top: 860px;
+            left: 250px;
+            font-size:8px;
+            width:100px;
+        }
+        .Women #priceposition9 {
+            top: 885px;
+            left: 250px;
+            font-size:8px;
+            width:100px;
+        }
+        .Women #textposition10 {
+            top: 1060px;
+            left: 45px;
+            font-size:8px;
+            width:100px;
+        }
+        .Women #priceposition10 {
+            top: 1085px;
+            left: 45px;
+            font-size:8px;
+            width:100px;
+        }
+        .Women #textposition11 {
+            top: 1060px;
+            left: 205px;
+            font-size:8px;
+            width:100px;
+        }
+        .Women #priceposition11 {
+            top: 1085px;
+            left: 205px;
+            font-size:8px;
+            width:100px;
+        }
+        .Women #textposition12 {
+            top: 1240px;
+            left: 130px;
+            font-size:8px;
+            width:100px;
+        }
+        .Women #priceposition12 {
+            top: 1265px;
+            left: 130px;
+            font-size:8px;
+            width:100px;
+        }
+        
+        .Women #textposition13 {
+            display:none;
+        }
+        
+        .Women #priceposition13 {
+            display:none;
+        }
+        
+        .Women #textposition13 {
+            display:none;
+        }
+        .Women #priceposition15 {
+            display:none;
+        }
+        
+        .Women #textposition15 {
+            display:none;
+        }
+        .Women .photos div:nth-child(1) {
+            left:15px;
+            top: 155px;
+        }
+        
+        .Women .photos div:nth-child(2) {
+            left: 135px;
+            top: 180px;
+        }
+        .Women .photos div:nth-child(3) {
+            left: 255px;
+            top: 155px;
+        }
+        .Women .photos div:nth-child(4) {
+            left: 50px;
+            top: 350px;
+        }
+        .Women .photos div:nth-child(5) {
+            left: 210px;
+            top: 350px;
+        }
+        .Women .photos div:nth-child(6) {
+            left: 135px;
+            top: 530px;
+        }
+        .Women .photos div:nth-child(7) {
+            left:15px;
+            top: 730px;
+        }
+        
+        .Women .photos div:nth-child(8) {
+            left: 135px;
+            top: 755px;
+        }
+        .Women .photos div:nth-child(9) {
+            left: 255px;
+            top: 730px;
+        }
+        .Women .photos div:nth-child(10) {
+            left: 50px;
+            top: 930px;
+        }
+        .Women .photos div:nth-child(11) {
+            left: 210px;
+            top: 930px;
+        }
+        .Women .photos div:nth-child(12) {
+            left: 135px;
+            top: 1110px;
+        }
+        .Women .photos div:nth-child(13) {
+            display: none;
+        }
+        .Women .photos div:nth-child(14) {
+            display: none;
+        }
+        .Women .photos div:nth-child(15) {
+            display: none;
+        }
+        .Women .photos div:nth-child(16) {
+            display: none;
+        }
+        }
+
+}
