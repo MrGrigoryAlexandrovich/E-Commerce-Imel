@@ -1,5 +1,4 @@
 @media only screen and (max-width: 360px) {
-    @media only screen and (max-width: 1024px) {
         .Women {
             width: 360px;
             height: 1300px;
@@ -250,6 +249,4 @@
         .Women .photos div:nth-child(16) {
             display: none;
         }
-        }
-
 }
