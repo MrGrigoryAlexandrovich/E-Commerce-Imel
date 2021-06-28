@@ -1,4 +1,5 @@
 import '../css/StartPage.css'
+import '../css/responsive/StartPage-360.css'
 import React from 'react'
 import {useHistory} from "react-router-dom";
 import Navigation from './Navigation'
@@ -6,7 +7,6 @@ export default function StartPage() {
     let history = useHistory();
     return (
         <div className="StartPage">
-                <Navigation/>
                 <div className="WomenPhoto"></div>
                 <span className="WomenText">Women</span>
                 <div className="SaleWomenPhoto"></div>
@@ -19,6 +19,7 @@ export default function StartPage() {
 
                 <div className="MenBottomPhoto" onClick={()=>history.push('/men')}></div>
                 <div className="WomenBottomPhoto" onClick={()=>history.push('/women')}></div>
+                <Navigation/>
             </div>
     )
 }

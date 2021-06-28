@@ -1,0 +1,77 @@
+@media only screen and (max-width: 360px) {
+    .Navigation {
+        position: absolute;
+        width:360px;
+    }
+    .Navigation svg {
+        display:none;
+    }
+    .Link {
+        display:none;
+     }
+    .BiMenu {
+        display:block;
+        position: absolute;
+        top: 0px;
+        left: 10px;
+        width:30px;
+        height:30px;
+    }
+    .BiX {
+        display:none;
+        position: absolute;
+        top: 0px;
+        left: 320px;
+        width:30px;
+        height:30px;
+    }
+    #Women {
+        position: absolute;
+        left:150px;
+        top: 0px;
+        font-size: 12px;
+    }
+    #Men {
+        position: absolute;
+        left:150px;
+        top: 15px;
+        font-size: 12px;
+    }
+    #Sale {
+        position: absolute;
+        left:150px;
+        top: 30px;
+        font-size: 12px;
+    }
+    #SignIn {
+        position: absolute;
+        left:150px;
+        top: 45px;
+        font-size: 12px;
+    }
+    #Contact {
+        position: absolute;
+        left:150px;
+        top: 60px;
+        font-size: 12px;
+    }
+    #Cart {
+        position: absolute;
+        left:150px;
+        top: 75px;
+        font-size: 12px;
+    }
+    #itemsBackground {
+        left: 170px;
+        top:73px;
+        width: 9px;
+        height:9px;
+        }
+        
+        #itemsNumber {
+            left: 173px;
+            top:73.5px;
+            font-size:7px;
+            width: 9px;
+        }
+}

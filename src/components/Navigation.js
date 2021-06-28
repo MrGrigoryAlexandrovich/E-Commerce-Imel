@@ -1,12 +1,28 @@
 import '../css/Navigation.css'
-import React from 'react'
+import '../css/responsive/Navigation-360.css'
+import React , {useState} from 'react'
 import {Link} from "react-router-dom";
 import { BiMenu } from 'react-icons/bi';
+import { BiX } from 'react-icons/bi';
 export default function Navigation() {
+    const [ShowNavigation, setShowNavigation] = useState(false);
     const displayLink = () =>{
-        let link = document.getElementsByClassName('Link');
-       for(let i=0;i<6;i++)
+      let link = document.getElementsByClassName('Link');
+       for(let i=0;i<6;i++) {
+        if(ShowNavigation===false) {
        link[i].style.display = 'block';
+       document.querySelector('.BiX').style.display = 'block'
+       document.querySelector('.BiMenu').style.display = 'none'
+       document.querySelector('.Navigation').style.height = '90px'
+        }
+       else {
+       link[i].style.display = 'none';
+       document.querySelector('.Navigation').style.height = '70px'
+       document.querySelector('.BiX').style.display = 'none'
+       document.querySelector('.BiMenu').style.display = 'block'
+       }
+       }
+      setShowNavigation(!ShowNavigation)
     }
     return (
         <div className="Header">
@@ -50,6 +66,7 @@ export default function Navigation() {
             </ul>
         </nav>
         <BiMenu  className="BiMenu" onClick={()=>displayLink()}/>
+        <BiX  className="BiX" onClick={()=>displayLink()}/>
         </div>
     )
 }
