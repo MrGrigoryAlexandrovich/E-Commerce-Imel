@@ -1,0 +1,93 @@
+@media only screen and (max-width: 360px) {
+    .Contact {
+        width: 360px;
+    }
+    .Contact input {
+        text-align:center;
+    }
+    .cos {
+        top: 20px;
+        left: 145px;
+    }
+    #information {
+        left: 50px;
+        top: 60px;
+    }
+    .v1 {
+        top: 63px;
+        left: 130px;
+    }
+    #payment {
+        left: 150px;
+        top: 60px;
+    }
+    .v2 {
+        top: 63px;
+        left: 210px;
+    }
+    #confirm {
+        left: 230px;
+        top: 60px;
+    }
+    .contactInfo {
+        top: 140px;
+        left: 100px;
+    }
+    .email {
+        top: 210px;
+        left: 90px;
+        width: 200px;
+    }
+    .shipping {
+        left: 90px;
+        top: 280px;
+    }
+    .firstname {
+        left:90px;
+        top: 315px;
+        width: 80px;
+    }
+    .lastname {
+        left: 210px;
+        top: 315px;
+        width: 80px;
+    }
+    .company {
+        left: 90px;
+        width: 200px;
+        top: 370px;
+    }
+    .address {
+        left: 90px;
+        width: 200px;
+    }
+    .apartment {
+        left: 90px;
+        width: 200px;
+    }
+    .postalcode {
+        left:90px;
+        width: 80px;
+        top: 535px;
+    }
+    .city {
+        left: 210px;
+        width: 80px;
+        top: 535px;
+    }
+    .country {
+        left: 90px;
+        width: 200px;
+        top: 590px;
+    }
+    .phone {
+        left: 90px;
+        width: 200px;
+        top: 645px;
+    }
+    .buttonCart{
+        top: 705px;
+        left:90px;
+        width: 200px;
+    }
+}
