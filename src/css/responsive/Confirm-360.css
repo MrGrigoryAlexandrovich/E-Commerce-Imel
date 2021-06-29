@@ -5,14 +5,14 @@
     }
     .ConfirmText {
         top: 500px;
-        left:140px;
+        left:70px;
     }
     .dataText {
         top: 520px;
-        left:140px;
+        left:70px;
     }
     .toOrder button {
-        left: 140px;
+        left: 70;
         top: 700px;
         width: 150px;
     }
