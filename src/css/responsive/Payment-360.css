@@ -1,0 +1,63 @@
+@media only screen and (max-width: 360px) {
+    .PaymentPage {
+        width: 360px;
+        background:red;
+    }
+    .PaymentProvider {
+       left:110px;
+        top: 120px;
+    }
+    
+    .PayPal {
+        top: 190px;
+        left: 35px;
+        width:35%;
+    }
+    
+    .PayPalPhoto {
+        top: 223px;
+        left: 45px;
+        width:30%;
+    }
+    
+    .Stripe {
+        top: 190px;
+        left: 205px;
+        width:35%;
+    }
+    
+    .StripePhoto {
+        top: 223px;
+        left: 218px;
+        width:30%;
+    }
+    
+    .ApplePay {
+        top: 300px;
+        left: 35px;
+        width:35%;
+    }
+    
+    .ApplePhoto {
+        top: 333px;
+        left: 45px;
+        width:30%;
+    }
+    
+    .Klarna {
+        top: 300px;
+        left: 205px;
+        width:35%;
+    }
+    
+    .KlarnaPhoto {
+        top: 333px;
+        left: 218px;
+        width:30%;
+    }
+    
+    .goToConfirm {
+        left: 20px;
+        top:430px;
+    }
+}

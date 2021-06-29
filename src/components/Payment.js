@@ -1,6 +1,7 @@
 import React from 'react'
 import '../css/PaymentPage.css'
 import '../css/responsive/Payment-1024.css'
+import '../css/responsive/Payment-360.css'
 import {Link } from "react-router-dom";
 export default function Payment() {
     return (
