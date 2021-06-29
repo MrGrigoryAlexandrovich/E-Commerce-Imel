@@ -1,0 +1,81 @@
+@media only screen and (max-width: 360px) {
+    .ConfirmPages {
+        width:360px;
+        position : absolute;
+    }
+    .ConfirmText {
+        top: 500px;
+        left:140px;
+    }
+    .dataText {
+        top: 520px;
+        left:140px;
+    }
+    .toOrder button {
+        left: 140px;
+        top: 700px;
+        width: 150px;
+    }
+    .CardTitle {
+        position: absolute;
+        left: -550px;
+        top: -20px;
+    }
+    .CardItem1 {
+        left: 50px;
+        top: 180px;
+    }
+    .CardItem2 {
+        left: 50px;
+        top: 280px;
+    }
+    .CardBackground {
+        position: relative;
+        left: -100px;
+        right: 100px;
+    }
+    .CardBackground .line1 {
+       position: relative;
+       left: -550px;
+       top: 220px;
+    }
+    .CardBackground .line2 {
+        position: relative;
+        left: -550px;
+        top: 270px;
+    }
+    .subTxt {
+        top:230px;
+        left: -530px;
+    }
+
+    .subtotalP {
+        top:230px;
+        left: -305px;
+        width: 50px;
+    }
+    .taxesTxt {
+        top: 250px;
+        left: -530px;
+    }
+    .taxesP {
+        top:250px;
+        left: -305px;
+        width: 50px;
+    }
+    .cardText1 {
+        font-size:8px;
+    }
+    .cardText2 {
+        font-size:8px;
+    }
+    .totalTxt {
+        top: 290px;
+        left: -530px;
+    }
+    .totalP {
+        top: 290px;
+        left: -305px;
+        width: 50px;
+    }
+}

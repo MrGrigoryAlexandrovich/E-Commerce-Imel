@@ -36,13 +36,13 @@ export default function Contact() {
             </div>
 <div className="CartCard">
     <div className="CardBackground">
+    <span className="subtotalP">€405</span>
+        <span className="taxesP">€81</span>
+        <span className="totalP">€486</span>
         <span className="CardTitle">Cart</span>
         <span className="subTxt">Subtotal</span>
         <span className="taxesTxt">Taxes</span>
         <span className="totalTxt">Total</span>
-        <span className="subtotalP">€405</span>
-        <span className="taxesP">€81</span>
-        <span className="totalP">€486</span>
         <hr className="line1"></hr>
         <hr className="line2"></hr>
     </div>

@@ -1,6 +1,7 @@
 import React ,{useEffect} from 'react'
 import '../css/Confirm.css'
 import '../css/responsive/Confirm-1024.css'
+import '../css/responsive/Confirm-360.css'
 export default function Confirm() {
     const ordered = () => {
         document.querySelector('.toOrder').style.display = "none";
