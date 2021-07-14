@@ -56,7 +56,7 @@ export default function Navigation() {
                  Sign In
                 </li>
                 </Link>
-                <Link className="Link" to="/cart">
+                <Link className="Link" to="/contact/information">
                 <li id="Cart">
                     Cart
                 </li>
