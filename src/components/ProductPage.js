@@ -1,6 +1,7 @@
 import React, {useEffect,useState} from 'react'
 import Navigation from './Navigation'
 import '../css/ProductPage.css'
+import '../css/responsive/ProductPage-1024.css'
 export default function ProductPage() {
     let [MainImage, setMainImage] = useState('');
     const displayCart = () => {

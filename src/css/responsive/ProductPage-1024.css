@@ -1,0 +1,77 @@
+@media only screen and (max-width: 1024px) {
+    .ProductPage {
+        width:1024px;
+        height: 2350px;
+    }
+    .CartButton {
+        width: 250px;
+    }
+    .otherText {
+        top: 1100px;
+    }
+    .rPhoto1 {
+        position: absolute;
+        height: 350px;
+        left: 10%;
+        top: 1190px;
+        background: url('../../photos/WomenPage/women1.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .rPhoto2 {
+        position: absolute;
+        height: 350px;
+        left: 40%;
+        top: 1190px;
+        background: url('../../photos/WomenPage/women2.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .rPhoto3 {
+        position: absolute;
+        height: 350px;
+        top: 1190px;
+        left: 710px;
+        background: url('../../photos/WomenPage/women3.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .rText1 {
+        left: 130px;
+        top: 1550px;
+        width:180px;
+    }
+    
+    .rText2 {
+        left: 430px;
+        top: 1550px;
+        width:180px;
+    }
+    
+    .rText3 {
+        width:180px;
+        left: 750px;
+        top: 1550px;
+    }
+    
+    .rPrice1 {
+        left: 130px;
+        top: 1580px;
+        width:180px;
+    }
+    
+    .rPrice2 {
+        left: 430px;
+        top: 1580px;
+        width:180px;
+    }
+    
+    .rPrice3 {
+        width:180px;
+        left: 750px;
+        top: 1580px;
+    }
+}

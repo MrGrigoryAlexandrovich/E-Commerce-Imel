@@ -7,14 +7,14 @@ export default function StartPage() {
     let history = useHistory();
     return (
         <div className="StartPage">
-                <div className="WomenPhoto"></div>
+                <div className="WomenPhoto" onClick={()=>history.push('/women')}></div>
                 <span className="WomenText">Women</span>
-                <div className="SaleWomenPhoto"></div>
+                <div className="SaleWomenPhoto" onClick={()=>history.push('/women')}></div>
                 <span className="SaleWomenText1">Sale</span>  <span className="SaleWomenText2">(Women)</span>
 
-                <div className="MenPhoto"></div>
+                <div className="MenPhoto" onClick={()=>history.push('/men')}></div>
                 <span className="MenText">Men</span>
-                <div className="SaleMenPhoto"></div>
+                <div className="SaleMenPhoto" onClick={()=>history.push('/men')}></div>
                 <span className="SaleMenText1">Sale</span>  <span className="SaleMenText2">(Men)</span>
 
                 <div className="MenBottomPhoto" onClick={()=>history.push('/men')}></div>
