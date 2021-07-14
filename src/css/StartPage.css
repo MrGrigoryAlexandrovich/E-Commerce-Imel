@@ -28,7 +28,7 @@
     height: 29px;
     left: 61px;
     top: 819px;
-    font-family: Inter;
+    font-family: 'Inter var', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -55,10 +55,10 @@
 .SaleWomenText1 {
     position: absolute;
     height: 29px;
-    left: 395px;
+    left: 295px;
     right: 884px;
     top: 1188px;
-    font-family: Inter;
+    font-family: 'Inter var', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -70,10 +70,10 @@
 .SaleWomenText2 {
     position: absolute;
     height: 29px;
-    left: 505px;
+    left: 455px;
     right: 884px;
     top: 1188px;
-    font-family: Inter;
+    font-family: 'Inter var', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -106,7 +106,7 @@
     height: 29px;
     left: 1330px;
     top: 919px;
-    font-family: Inter;
+    font-family: 'Inter var', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -133,10 +133,10 @@
 .SaleMenText1 {
     position: absolute;
     height: 29px;
-    left: 902px;
+    left: 822px;
     right: 377px;
     top: 1288px;
-    font-family: Inter;
+    font-family: 'Inter var', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -148,10 +148,10 @@
 .SaleMenText2 {
     position: absolute;
     height: 29px;
-    left: 1012px;
+    left: 952px;
     right: 377px;
     top: 1288px;
-    font-family: Inter;
+    font-family: 'Inter var', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
